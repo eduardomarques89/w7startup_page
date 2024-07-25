@@ -1,0 +1,144 @@
+#ourhome {
+  padding: 100px 0;
+}
+
+.bglight {
+  background-color: #fff;
+  padding: 0 0 100px 0;
+}
+
+.fadeIn {
+  background-color: #F6F3F3;
+}
+
+#ourhome .feature-item h3 {
+  font-size: 56px;
+  color: #000;
+  margin-top: 100px;
+  width: 600px;
+}
+
+#ourhome .feature-item button {
+  margin-top: 80px;
+  margin-left: 730px;
+  background: linear-gradient(45deg, #CE45CB, #8A76DF);
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#we-offer .feature-item button:hover {
+  background: linear-gradient(45deg, #8A76DF, #CE45CB);
+}
+
+.card_text {
+  color: #CE45CB;
+}
+
+#app-promo {
+  background: linear-gradient(to right, #8A76DF, #CE45CB);
+  color: white;
+  padding: 60px 0;
+}
+
+.text-box {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.whitecolor {
+  text-align: left;
+}
+
+.white-line {
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  margin-right: 1000px;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-item {
+  margin: 20px;
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+.stat-text {
+  font-size: 16px;
+  margin-right: 200px;
+}
+
+.icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+}
+
+@media (max-width: 768px) {
+  .stats-box {
+    flex-direction: column;
+  }
+}
+
+.gradient_color_white {
+  color: #fff;
+}
+
+.gradient_bg_whitte {
+  background-color: #fff;
+  color: #D043CA;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 80px;
+}
+
+.gradient_bg_whitte:hover {
+  color: #8579E0;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  opacity: 30%;
+  background: #fff;
+  margin: 20px 0;
+}
+
+.gradient_color_itens {
+  color: #fff;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 16px;
+  opacity: 80%;
+  font-weight: lighter;
+}
+
+.gradient_color_itens_central {
+  color: #fff;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: lighter;
+}
