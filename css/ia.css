@@ -1,0 +1,204 @@
+#ourhome button {
+  margin-top: 30px;
+  margin-left: 100px;
+  background: linear-gradient(45deg, #00BCD4, #5192E1);
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 305px;
+  height: 88px;
+}
+
+.fadeIn {
+  background-color: #F6F3F3;
+}
+
+.gradient_color_white {
+  color: #fff;
+}
+
+.gradient_bg_whitte {
+  background-color: #fff;
+  color: #D043CA;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 80px;
+}
+
+.gradient_bg_whitte:hover {
+  color: #8579E0;
+}
+
+.gradient_color_itens {
+  color: #fff;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 16px;
+  opacity: 80%;
+  font-weight: lighter;
+}
+
+/* Card 1 */
+.icon1 {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+.icon1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.photo {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+}
+
+.photo img {
+  border-radius: 50%;
+  border: 5px #00BCD4 solid;
+  width: 100px;
+  height: 100px;
+}
+
+.namephoto {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.namephoto h5 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.namephoto p {
+  margin: 0;
+  font-size: 14px;
+  color: #00BCD4;
+}
+
+/* Card 2 */
+.icon2 {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+.icon2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.photo2 {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+}
+
+.photo2 img {
+  border-radius: 50%;
+  border: 5px #00BCD4 solid;
+  width: 100px;
+  height: 100px;
+}
+
+.namephoto2 {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.namephoto2 h5 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.namephoto2 p {
+  margin: 0;
+  font-size: 14px;
+  color: #00BCD4;
+}
+
+/* Card 3 */
+.icon3 {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+.icon3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.photo3 {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+}
+
+.photo3 img {
+  border-radius: 50%;
+  border: 5px #00BCD4 solid;
+  width: 100px;
+  height: 100px;
+}
+
+.namephoto3 {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.namephoto3 h5 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.namephoto3 p {
+  margin: 0;
+  font-size: 14px;
+  color: #00BCD4;
+}
