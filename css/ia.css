@@ -41,6 +41,34 @@
   font-weight: lighter;
 }
 
+.gradient_color_itens_central {
+  color: #fff;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.gradient_bg_whitte {
+  background-color: #fff;
+  color: #00BCD4;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 80px;
+}
+
+.gradient_bg_whitte:hover {
+  color: #5192E1;
+}
+
+.bglight_back {
+  background-image: url('/images/chat_back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* Card 1 */
 .icon1 {
   position: absolute;
@@ -201,4 +229,117 @@
   margin: 0;
   font-size: 14px;
   color: #00BCD4;
+}
+
+/* Tester AI */
+.chat-section {
+  text-align: center;
+  color: #00aaff;
+}
+
+.header h1 {
+  font-size: 2em;
+}
+
+.header p {
+  font-size: 1em;
+  color: #555;
+}
+
+.chat-container {
+  background-image: url('/images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 50px;
+  height: 800px;
+  margin-top: 100px;
+}
+
+.chat-header {
+  position: relative;
+  top: -30px;
+  margin-bottom: -30px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.chat-back {
+  background-color: #fff;
+  position: absolute;
+  top: 320px;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 900px;
+  border-radius: 50px;
+  border: 5px #00BCD4 solid;
+}
+
+.nav {
+  background-color: #FAFAFA;
+  border-radius: 50px;
+  width: 591px;
+  height: 125px;
+  position: absolute;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-header {
+  position: absolute;
+  transform: translateX(280%);
+}
+
+.chat-message {
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+  width: 550px;
+  margin-top: 780px;
+  margin-left: 30px;
+}
+
+.input-container input {
+  width: calc(100% - 60px);
+  height: 80px;
+  border-radius: 60px;
+  border: 3px #00BCD4 solid;
+  padding: 10px 10px 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-container input::placeholder {
+  opacity: 30%;
+}
+
+.send-button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #00BCD4;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.send-button i {
+  font-size: 35px;
 }
